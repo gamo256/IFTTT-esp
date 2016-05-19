@@ -14,7 +14,7 @@
 2. Open Boards Manager from **Tools -> Board menu** and install esp8266 platform (and don't forget to select your ESP8266 board from Tools > Board menu after installation)
 3. Download the IFTTT ESP8266 library [here](https://github.com/gamo256/IFTTT-esp/archive/master.zip)
 4. Now, click on **Sketch -> Include Library -> Add .ZIP Library**
-5. Select the .ZIP file of IFTTT-esp-master and then "Accept" or "Choose"
+5. Select the .ZIP file of IFTTT-esp and then "Accept" or "Choose"
 6. Close the Arduino IDE and open it again.
     
 ## Send one value to IFTTT Maker Channel
