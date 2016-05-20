@@ -13,6 +13,9 @@ void setup(){
 }
 void loop(){
     String value = String(analogRead(A0));
-    client.add(value);
+    client.add(value1); // specifies the args of type "String
+    //Send value can specify up to three
+    client.add(value2); // optional
+    client.add(value3); // optional
     client.sendAll(EVENT);
 }
